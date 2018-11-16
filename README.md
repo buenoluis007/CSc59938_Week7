@@ -12,7 +12,7 @@ Time spent: **6** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.6.1
   - [x] GIF Walkthrough: 
-    - <img src='xss.gif' title='xss' width='' alt='' />
+    - <img src='xss.gif' title='xss' width='' />
   - [x] Steps to recreate: Make a new post, title the post anything you want and paste ```<a onmouseover= "alert('Hacked!!!')" >click here</a>``` into the text area. Click "Preview" and the post will appear. An alert will show up each time you hover your cursor over the "click here" link.
   - [x] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-includes/class-wp-editor.php?rev=33361)
@@ -22,7 +22,7 @@ Time spent: **6** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 
   - [x] GIF Walkthrough: 
-     - <img src='xss2.gif' title='xss2' width='' alt='' />
+     - <img src='xss2.gif' title='xss2' width='' />
   - [x] Steps to recreate: On the create media page, upload a picture from your computer. Once you upload the picture, click the image and enter the following code into the Title field: ```filename<img src=a onerror=alert(1337)>.png```. Now click on "View attachment page" and the alert will show up.  
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/media.php)

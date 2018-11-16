@@ -26,7 +26,7 @@ Time spent: **6** hours spent in total
   - [x] Steps to recreate: On the create media page, upload a picture from your computer. Once you upload the picture, click the image and enter the following code into the Title field: ```filename<img src=a onerror=alert(1337)>.png```. Now click on "View attachment page" and the alert will show up.  
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/branches/4.2/src/wp-admin/includes/media.php)
-3. (Required) User Enumeration Inconsistency
+3. (Required) User Enumeration reveals users that exists
   - [x] Summary: 
     - Vulnerability types: User Enumeration
     - Tested in version: 4.2
